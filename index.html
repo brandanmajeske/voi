@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+   		<meta charset="utf-8" />
+  		<meta name="author" content="Brandan Majeske">
+        <title></title>
+     
+       
+        <link href="resources/css/main.css" rel="stylesheet" type="text/css" />
+        <script type="text/javascript" src="resources/js/swfobject.js"></script>
+        <script type="text/javascript">
+          
+          var swfVersionStr = "10.2.0";
+            // To use express install, set to playerProductInstall.swf, otherwise the empty string. 
+            var xiSwfUrlStr = "playerProductInstall.swf";
+            var flashvars = {};
+            var params = {};
+            params.quality = "high";
+            params.bgcolor = "#f5f5f5";
+            params.allowscriptaccess = "sameDomain";
+            params.allowfullscreen = "true";
+            var attributes = {};
+            attributes.id = "Main";
+            attributes.name = "Main";
+            attributes.align = "middle";
+            swfobject.embedSWF(
+                "Main.swf", "flashContent", 
+                "900", "400", 
+                swfVersionStr, xiSwfUrlStr, 
+                flashvars, params, attributes);     
+        </script>
+        
+   </head>
+   <body>
+   <div class="container">
+      <h1>FSO &bull; OOP | Value Objects &amp; Interfaces</h1>
+      <div id="flashContent">
+      <p>To view this page install <a href="http://get.adobe.com/flashplayer/" target="_blank">Adobe Flash Player</a></p>	
+    </div>
+    <h2 id="name">By Brandan Majeske</h2>    
+   </div> <!-- end container --> 
+   </body>
+</html>

@@ -1,0 +1,36 @@
+body {
+	background: #222222;
+	height: 100%;
+	width: 100%;	
+
+}
+
+.container{
+	width:800px;
+	margin: 0 auto;
+}
+  
+object:focus { 
+	outline:none; 
+}
+
+#flashContent {
+	margin: 0 auto;
+}
+
+.container h1 {
+	font-size: 2em;
+	line-height: 2.2em;
+	color: #FFF;
+	display:block;
+	width: 900px;
+	font-family: Arial;
+	border-bottom: 1px dotted #fff;
+	text-align: center;
+}
+
+#name {
+	text-align: right;
+	color: #ffffff;
+	float:right;
+}

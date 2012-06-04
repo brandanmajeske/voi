@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<index>
+	<title>Source of BrandanMajeske_VOandI</title>
+	<nodes>
+		<node label="html-template">
+			<node label="history">
+				<node icon="cssIcon" label="history.css" url="source/html-template/history/history.css.html"/>
+				<node label="history.js" url="source/html-template/history/history.js.txt"/>
+				<node icon="htmlIcon" label="historyFrame.html" url="source/html-template/history/historyFrame.html"/>
+			</node>
+			<node label="resources">
+				<node label="css">
+					<node icon="cssIcon" label="main.template.css" url="source/html-template/resources/css/main.template.css.html"/>
+				</node>
+				<node label="images">
+				</node>
+				<node label="js">
+					<node label="swfobject.js" url="source/html-template/resources/js/swfobject.js.txt"/>
+				</node>
+			</node>
+			<node icon="htmlIcon" label="index.template.html" url="source/html-template/index.template.html"/>
+			<node icon="swfIcon" label="playerProductInstall.swf" url="source/html-template/playerProductInstall.swf"/>
+		</node>
+		<node label="lib">
+			<node icon="flaIcon" label="assets.fla" url="source/lib/assets.fla"/>
+			<node label="assets.swc" url="source/lib/assets.swc"/>
+		</node>
+		<node label="src">
+			<node icon="packageIcon" label="com.brandanmajeske.book" expanded="true">
+				<node icon="actionScriptIcon" label="BookView1.as" url="source/com/brandanmajeske/book/BookView1.as.html"/>
+				<node icon="actionScriptIcon" label="BookView2.as" url="source/com/brandanmajeske/book/BookView2.as.html"/>
+				<node icon="actionScriptIcon" label="IBook.as" url="source/com/brandanmajeske/book/IBook.as.html"/>
+			</node>
+			<node icon="packageIcon" label="com.brandanmajeske.ui" expanded="true">
+				<node icon="actionScriptIcon" label="Button.as" url="source/com/brandanmajeske/ui/Button.as.html"/>
+				<node icon="actionScriptIcon" label="LayoutBox.as" url="source/com/brandanmajeske/ui/LayoutBox.as.html"/>
+			</node>
+			<node icon="packageIcon" label="com.brandanmajeske.views" expanded="true">
+				<node icon="actionScriptIcon" label="BookButton.as" url="source/com/brandanmajeske/views/BookButton.as.html"/>
+				<node icon="actionScriptIcon" label="ResetButton.as" url="source/com/brandanmajeske/views/ResetButton.as.html"/>
+			</node>
+			<node icon="packageIcon" label="com.brandanmajeske.vo" expanded="true">
+				<node icon="actionScriptIcon" label="BookVO.as" url="source/com/brandanmajeske/vo/BookVO.as.html"/>
+			</node>
+			<node icon="mxmlAppIcon" selected="true" label="Main.as" url="source/Main.as.html"/>
+		</node>
+	</nodes>
+	<zipfile label="Download source (ZIP, 57K)" url="BrandanMajeske_VOandI.zip">
+	</zipfile>
+	<sdklink label="Download Flex SDK" url="http://www.adobe.com/go/flex451_sdk_download">
+	</sdklink>
+</index>
